@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/car.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_top clear">
+            <div class="header_top_con">
+                <div class="h_l" id="h_l">
+                    <span></span>
+                    <a id="login" href="login.html">[登录]</a>
+                    <i></i>
+                    <a id="register" href="register.html">[注册]</a>
+                    <a href="javascript:;" id="admin"></a>
+                    <a href="login.html" id="exit">[退出]</a>
+                </div>
+                <div class="h_r">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);">合作招商
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">订单查询</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">我的快乐购</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <i class="iconfont icon-phone"></i> 400-705-1111</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">下载快乐购app</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">客服中心
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="car_header">
+            <div class="car_header_con">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="images/logo[1].jpg" alt="">
+                    </a>
+                </h1>
+                <div class="h_c_right">
+                    <div class="status">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="order_shop clear">
+        <div class="no_goods_outer clear">
+            <div class="car_no_goods">
+                <img src="http://ecimg.happigo.com/resource/web/images/car_no_goods.jpg">
+                <div class="no_goods">
+                    <p class="no_goods_t">亲，您的购物车空空如也，快去抢购心仪商品吧~</p>
+                    <p>
+                        <a href="/" class="no_goods_buy">立即购买</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="shop_tit">
+            <div class="cart_checkbox">
+                <label class="cbox_djj">
+                    <input type="checkbox" name="selectAll" class="jdcheckbox" checked="checked" id="cbox_djj_ck">
+                    <span>全选</span>
+                </label>
+                <span class="shop_s_name">商品</span>
+            </div>
+            <div class="column t_price">单价(元)</div>
+            <div class="column t_quantity">数量</div>
+            <div class="column t_sum">小计(元)</div>
+            <div class="column t_action">操作</div>
+        </div>
+        <div class="shop_list clear">
+            <div class="shop_h2">
+                <span class="s_allgoods">
+                    <input type="checkbox" name="select_shop" class="jdcheckbox" checked="" value="1" id="s_allgoods_ck">
+                </span>
+                <span class="shop_h2_zy">
+                    <span>自营</span>
+                </span>
+                <a class="a_shopname" href="index.html">快乐购商城</a>
+                <div class="order_tips">在线支付满199.00包邮</div>
+            </div>
+            <div id="item_outer" class="clear">
+            </div>
+        </div>
+    </div>
+    <div class="order_sum">
+        <div>
+            <div class="del_all">
+                <label class="cbox_djj">
+                    <input type="checkbox" class="jdcheckbox" name="selectAll" checked="checked" value="1" id="order_check">
+                    <span>全选</span>
+                </label>
+            </div>
+            <div class="fr">
+                <div class="goods_num">已选商品
+                    <span>
+                        <em id="sunm">8</em>
+                    </span>件</div>
+                <div class="goods_sum">
+                    <p class="sum_price">商品总价（不含运费）
+                        <span>￥
+                            <em id="cartTotal">6678.00</em>
+                        </span>
+                    </p>
+                </div>
+                <div class="btn_buy">
+                    <a href="javascript:void(0)" class="a_btn_buy" id="next_submit">去结算</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
+<script src="scripts/require.js"></script>
+<script src="scripts/header.js"></script>
+<script src="scripts/car.js"></script>

@@ -1,0 +1,251 @@
+$conWidth:1000px;
+$border:#dfdfdf;
+$fontCol:#8c8c8c;
+$hoverFont:#c41f3a;
+$mainCol:#94193f;
+$price:#c4193f;
+
+body {
+    background: #fbfbfb;
+}
+
+.header {
+    .header_top {
+        height: 36px;
+        background: #fafafa;
+        color: $fontCol;
+        border-top: 1px solid $border;
+        border-bottom: 1px solid $border;
+        line-height: 36px;
+
+    }
+    .header_top_con {
+        width: $conWidth;
+        margin: 0 auto;
+        .h_l {
+            float: left;
+            a {
+                display: inline-block;
+                margin-right: 10px;
+                color: $fontCol;
+                margin-left: 10px;
+                &:hover{color: $hoverFont;text-decoration: underline;}
+            }
+            #exit{display: none;}
+            #admin{display: none;}
+            #login {
+                margin-left: 20px;
+                display: none;
+            }
+            #register{display: none;}
+            i {
+                height: 14px;
+                background: $border;
+                width: 1px;
+                display: none;
+                vertical-align: middle;
+            }
+        }
+        .h_r {
+            float: right;
+            li {
+                float: left;
+                height: 36px;
+                a {
+                    color: $fontCol;
+                    padding: 0 10px;
+                    border-right: 1px solid $border;
+                }
+            }
+            li a:hover {
+                color: $hoverFont;
+                text-decoration: underline;
+            }
+            .icon-phone {
+                font-size: 16px;
+                display: inline-block;
+            }
+            .icon-xiala {
+                display: inline-block;
+                padding-left: 6px;
+            }
+
+        }
+
+    }
+    .search {
+        padding: 30px 0 19px;
+        height: 75px;
+
+    }
+    .search_con {
+        width: $conWidth;
+        margin: 0 auto;
+        .logo {
+            height: 55px;
+            width: 58px;
+            float: left;
+            margin-right: 7px;
+            img {
+                width: 100%;
+            }
+        }
+        .promise {
+            float: left;
+            margin-top: 18px;
+        }
+        .sc {
+            float: left;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        .sc_top {
+            float: left;
+            input,
+            button {
+                float: left;
+                border: 3px solid $mainCol;
+                height: 41px;
+                box-sizing: border-box;
+            }
+            input {
+                width: 311px;
+                padding-left: 8px;
+                border-right: none;
+            }
+            button {
+                background: $mainCol;
+                color: #fff;
+                font-size: 16px;
+                width: 53px;
+            }
+        }
+        .sc_bt {
+            width: 364px;
+            li {
+                float: left;
+                padding-left: 4px;
+                margin-top: 6px;
+                a {
+                    color: $fontCol;
+                }
+            }
+        }
+        .spc {
+            width: 110px;
+            height: 39px;
+            line-height: 36px;
+            position: relative;
+            cursor: pointer;
+            text-align: center;
+            float: right;
+            margin-top: 5px;
+            a {
+                background: #f9f9f9;
+                display: block;
+                width: 110px;
+                height: 39px;
+                border: 1px solid $border;
+                box-sizing: border-box;
+                b {
+                    padding-left: 4px;
+                }
+                .icon-gouwuche {
+                    margin-left: -13px;
+                }
+            }
+            span {
+                position: absolute;
+                background: $mainCol;
+                color: #fff;
+                top: -5px;
+                right: 20px;
+                border-radius: 50%;
+                height: 16px;
+                line-height: 16px;
+                min-width: 16px;
+            }
+        }
+
+    }
+    .nav {
+        border-bottom: 2px $mainCol solid;
+        height: 39px;
+        ul {
+            width: $conWidth;
+            margin: 0 auto;
+            a {
+                font-size: 16px;
+            }
+            li {
+                float: left;
+                padding: 0 30px;
+                line-height: 39px;
+                &:not(.all_cls) a:hover {
+                    color: $mainCol;
+                }
+            }
+            .main_page {
+                padding-left: 60px;
+            }
+            .all_cls {
+                color: #fff;
+                background: $mainCol;
+                width: 155px;
+                position: relative;
+                a {
+                    color: #fff;
+                    padding-left: 25px;
+                }
+                a i {
+                    font-size: 32px;
+                    position: absolute;
+                    right: 0;
+                }
+            }
+            .tv {
+                position: relative;
+                .hot {
+                    position: absolute;
+                    top: 0;
+                    right: -3px;
+                }
+                .cus_ani {
+                    animation: cus_ani 3s infinite alternate;
+                    -webkit-animation: cus_ani 3s infinite alternate;
+                    -ms-animation: cus_ani 3s infinite alternate;
+                    animation-fill-mode: forwards;
+                    -webkit-animation-fill-mode: forwards;
+                    -ms-animation-fill-mode: forwards;
+                }
+                /*动画*/
+                @-webkit-keyframes cus_ani {
+                    0% {
+                        transform: translate3d(0, -2px, 0);
+                    }
+                    15% {
+                        transform: translate3d(0, 2px, 0);
+                    }
+                    25% {
+                        transform: translate3d(0, -2px, 0);
+                    }
+                    35% {
+                        transform: translate3d(0, 2px, 0);
+                    }
+                    45% {
+                        transform: translate3d(0, -2px, 0);
+                    }
+                    55% {
+                        transform: translate3d(0, 2px, 0);
+                    }
+                    100% {
+                        transform: translate3d(0, 2px, 0);
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+

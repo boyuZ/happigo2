@@ -1,0 +1,17 @@
+{
+  "name": "gulp-t",
+  "version": "1.0.0",
+  "description": "gulp config for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhangboyu",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.2.0",
+    "gulp-sass-china": "^3.1.0"
+  },
+  "dependencies": {}
+}

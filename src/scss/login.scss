@@ -1,0 +1,100 @@
+$wid_con : 1000px;
+.header{margin-top: 30px;margin-bottom: 10px;}
+.header_con{
+    width: $wid_con;
+    margin:0 auto;
+    h1{float: left;width: 72px;height: 68px;}
+    div{float: right;margin-top: 19px;}
+}
+$mainColor:#c41f3a;
+.content_con{width: $wid_con;margin: 0 auto;
+    .con_l{height: 364px;padding-top: 23px;width: 600px;float: left; margin:12px 0 0 30px;
+    img{width: 560px;height: 360px;}
+    }
+    .con_r{width: 317px;height: 600px;float: right;padding:0 25px;
+        .con_r_t{padding: 23px 0 20px;
+            h2{color: $mainColor;font-size: 22px;height: 38px;line-height: 38px;float: left;font-weight: bold;}
+            p{float: right;line-height: 38px;height: 38px;
+                a{color: $mainColor;}
+            }
+        }
+        .c_radio{
+            height: 20px;padding-bottom:10px;
+            div{float: left;margin-right: 45px;}
+        }
+        .fom{
+            .item{margin-bottom: 10px;position: relative;width: 100%;overflow: hidden;
+                input{
+                    color: #333333;
+                    border: 1px solid #c8c8c8;
+                    height: 25px;
+                    line-height: 25px;
+                    padding: 6px 0 6px 6px;
+                    font-size: 12px;
+                }
+                .border{border-color: #c41f3a}
+                p{
+                    height: 23px;
+                    line-height: 23px;
+                    margin-bottom: 3px;
+                    overflow: hidden;
+                    width: 100%;
+                    visibility:hidden;
+                }
+                .error{
+                    color: #c41f3a;
+                    i{background: url(../images/login_icon_list[1].png) no-repeat;height: 18px;width: 18px;display: inline-block;position: relative;top:5px;}
+                }
+                .success{
+                    border-color: #1f9729;
+                }
+            }
+
+            .i1{
+                input{
+                    width: 293px;
+                }
+               
+            }
+            .i2{
+                input{width:157px;}
+            }
+            .agree{margin-top: 15px;
+                #c3{position: relative;top:3px;}
+            }
+            .rem_name_l{
+                float: left;
+                input{float: left;}
+                label{float: left;line-height: 25px;padding-left: 4px;}
+            }
+            .rem_name_r{float: right;}
+            .i3{width: 317px;height: 20px;}
+            .login_btn{height: 40px;width: 317px;text-align:center;
+                color: white;font-weight: bold;line-height: 40px;display: block;background: #94193f;font-size: 14px;cursor: pointer;
+            }
+            .about{
+
+                p{
+                    color: #333;
+                    height: 24px;
+                    line-height: 24px;
+                    font-size: 12px;
+                    font-family: "宋体";
+                    margin:10px 0;
+                }
+                div{
+                    height: 50px;width: 50px;float: left;margin-right: 12px;
+                    a{height:50px;width: 50px;display: block;background: url(../images/login_icon_list[1].png) no-repeat;
+                    }
+                    
+                    
+
+                }
+                div:nth-of-type(1) a{background-position:  0 -32px;}
+                div:nth-of-type(2) a{background-position:  -73px -32px;}
+                div:nth-of-type(3) a{background-position: -143px -32px;}
+            }
+        }
+    }
+}
+.footer_bottom{margin:0 auto}

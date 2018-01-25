@@ -1,0 +1,68 @@
+{
+    "items": {
+        "161119": {
+            "goods_commonid": "161119",
+            "pic": [
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_main_230378_550.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525479938050_550.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525549462654_550.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525632388195_550.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525703331708_550.jpg"
+            ],
+            "pic_original": "http://ecimg.happigo.com/data/upload/shop/common/default_goods_image_240.gif",
+            "goods_name": "森林大叔每日坚果8种果仁26g*20袋*3箱",
+            "goods_jingle": "世界各地挑选的果仁",
+            "goods_maidian": "8种坚果混合，每天吃一包，均衡全面营养，绿色健康，不含防腐剂",
+            "goods_price1": 268,
+            "goods_price2": 288,
+            "store_info": 1324,
+            "store_name": "快乐购商城",
+            "zoom": [
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_main_230378_1280.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525479938050_1280.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525549462654_1280.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525632388195_1280.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525703331708_1280.jpg"
+            ],
+            "thumbnail": [
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_main_230378_60.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525479938050_60.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525549462654_60.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525632388195_60.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/378/230378/1_05693525703331708_60.jpg"
+            ]
+        },
+        "169524": {
+            "goods_commonid": "169524",
+            "pic": [
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677766107000617_550.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775093755008_550.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775135664791_550.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775171189527_550.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775208235037_550.jpg"
+            ],
+            "pic_original": "http://ecimg.happigo.com/data/upload/shop/common/default_goods_image_240.gif",
+            "goods_name": "Damiele达米尼中式嵌入台上两用洗碗机",
+            "goods_jingle": "[呵护你的双手]Damiele达米尼中式嵌入台上两用洗碗机",
+            "goods_maidian": "简约欧式造型，中式印花面板，7种洗涤模式任选，比手洗更省水，洗的干净洗的健康，台嵌两用",
+            "goods_price1": 2999,
+            "goods_price2": 1599,
+            "store_info": 1324,
+            "store_name": "快乐购商城",
+            "zoom": [
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677766107000617_1280.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775093755008_1280.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775135664791_1280.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775171189527_1280.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775208235037_1280.jpg"
+            ],
+            "thumbnail": [
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677766107000617_60.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775093755008_60.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775135664791_60.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775171189527_60.jpg",
+                "http://ecimg.happigo.com/data/upload/shop/store/goods/1/390/229390/1_05677775208235037_60.jpg"
+            ]
+        }
+    }
+}
