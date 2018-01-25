@@ -112,18 +112,18 @@ body {
     text-align: center;
     float: right;
     margin-top: 5px; }
-    .header .search_con .spc a {
+    .header .search_con .spc .spc_a {
       background: #f9f9f9;
       display: block;
       width: 110px;
       height: 39px;
       border: 1px solid #dfdfdf;
       box-sizing: border-box; }
-      .header .search_con .spc a b {
+      .header .search_con .spc .spc_a b {
         padding-left: 4px; }
-      .header .search_con .spc a .icon-gouwuche {
+      .header .search_con .spc .spc_a .icon-gouwuche {
         margin-left: -13px; }
-    .header .search_con .spc span {
+    .header .search_con .spc > span {
       position: absolute;
       background: #94193f;
       color: #fff;
@@ -192,3 +192,99 @@ body {
     transform: translate3d(0, 2px, 0); }
   100% {
     transform: translate3d(0, 2px, 0); } }
+
+.header .my_car_list {
+  position: absolute;
+  right: 0;
+  width: 308px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e2e2e2;
+  z-index: 20;
+  top: 41px;
+  display: none; }
+
+.header .car_goods_d {
+  text-align: center; }
+
+.header .car_goods_d h2 {
+  color: #666666;
+  font-size: 12px;
+  font-family: "宋体";
+  height: 40px;
+  padding: 0;
+  line-height: 40px;
+  padding-left: 10px; }
+
+.header .ul_mycarlist {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-left: 10px; }
+
+.header .ul_mycarlist li {
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px dashed #cccccc;
+  padding: 5px 0; }
+
+.header .car_img {
+  float: left; }
+
+.header .car_img img {
+  width: 49px;
+  height: 49px;
+  border: 1px solid #e7e7e7; }
+
+.header .loading_img {
+  width: 50px;
+  height: 50px; }
+
+.header .car_title {
+  float: left;
+  padding: 0 10px;
+  width: 130px;
+  line-height: 1.4em;
+  height: 4.2em;
+  overflow: hidden;
+  color: #434343;
+  text-align: left; }
+
+.header .car_title:visited, .header .car_title:link {
+  color: #434343; }
+
+.header .car_p {
+  float: left;
+  text-align: right; }
+  .header .car_p p {
+    color: #666666;
+    font-weight: bold; }
+  .header .car_p .car_p p span {
+    font-family: arial; }
+  .header .car_p .car_del {
+    color: #434343; }
+  .header .car_p .car_del:visited, .header .car_p .car_del:link {
+    color: #434343; }
+  .header .car_p .car_sum {
+    background-color: #fcfcfc;
+    padding: 10px 20px 10px 10px;
+    overflow: auto;
+    height: 32px;
+    line-height: 32px;
+    font-family: "宋体"; }
+  .header .car_p .sum_l {
+    float: left; }
+  .header .car_p .sum_m {
+    float: left;
+    padding-left: 5px; }
+  .header .car_p .a_go_car {
+    background-color: #94193f;
+    color: #fff;
+    display: block;
+    float: right;
+    font-family: "宋体";
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    width: 104px; }
+  .header .car_p .a_go_car:hover {
+    background-color: #a82045; }

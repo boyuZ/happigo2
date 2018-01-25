@@ -30,7 +30,8 @@
 
 .order_shop {
   width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  min-height: 220px; }
   .order_shop .shop_tit {
     margin-top: 40px;
     border: 1px solid #dadada;
@@ -239,7 +240,7 @@
   margin-top: 50px; }
 
 .no_goods_outer {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   position: absolute;
   z-index: 2;

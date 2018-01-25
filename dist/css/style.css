@@ -103,7 +103,7 @@ body {
       margin-top: 6px; }
       .header .search_con .sc_bt li a {
         color: #8c8c8c; }
-  .header .search_con .spc {
+  .header .search_con .spc_a {
     width: 110px;
     height: 39px;
     line-height: 36px;
@@ -112,18 +112,18 @@ body {
     text-align: center;
     float: right;
     margin-top: 5px; }
-    .header .search_con .spc a {
+    .header .search_con .spc_a a {
       background: #f9f9f9;
       display: block;
       width: 110px;
       height: 39px;
       border: 1px solid #dfdfdf;
       box-sizing: border-box; }
-      .header .search_con .spc a b {
+      .header .search_con .spc_a a b {
         padding-left: 4px; }
-      .header .search_con .spc a .icon-gouwuche {
+      .header .search_con .spc_a a .icon-gouwuche {
         margin-left: -13px; }
-    .header .search_con .spc span {
+    .header .search_con .spc_a span {
       position: absolute;
       background: #94193f;
       color: #fff;
